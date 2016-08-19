@@ -1,0 +1,42 @@
+/* resets browser default margin and padding */
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+ul li {
+	list-style: none;
+	font-family: 'Noto Serif', serif;
+	
+}
+
+footer {
+	min-height: 400px;
+}
+
+i.fa.fa-wordpress {
+    float: left;
+}
+
+.copy h1{
+	 margin-top: 70px;
+}
+#tabList > li:nth-child(1) > a {
+	min-height: 2.2rem;
+}
+
+#profileImg {
+	margin-top: 70px;
+	border-radius: 100px;
+}
