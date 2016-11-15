@@ -28,6 +28,9 @@ ul li {
 footer {
 	min-height: 400px;
 }
+#wordPress img , #fewd img , #design img , #photography img , #education img  {
+	margin: 10% auto 0 auto;
+}
 
 i.fa.fa-wordpress {
     float: left;	
@@ -56,6 +59,9 @@ i.fa.fa-wordpress {
 	#projectsImg{
 		margin: 0 auto;
 	}
+	#wordPress img, #fewd img, #design img, #photography img, #education img {
+		margin: 10%	 auto 0 auto;
+	}
 
 }
 
@@ -64,4 +70,5 @@ i.fa.fa-wordpress {
 	.container {
 		margin-top: 10%;
 	}
+
 }
