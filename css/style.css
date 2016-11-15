@@ -15,6 +15,10 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+img {
+	margin: 0 auto;
+}
+
 ul li {
 	list-style: none;
 	font-family: 'Noto Serif', serif;
@@ -26,7 +30,7 @@ footer {
 }
 
 i.fa.fa-wordpress {
-    float: left;
+    float: left;	
 }
 
 .copy h1{
@@ -39,4 +43,11 @@ i.fa.fa-wordpress {
 #profileImg {
 	margin-top: 70px;
 	border-radius: 100px;
+}
+
+/* Portrait */
+@media all and (max-width: 448px) { 
+	.container {
+		margin-top: 10%;
+	}
 }
