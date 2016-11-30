@@ -23,8 +23,9 @@ $(document).ready(function(){
         }, 800);
         return false;
     });
+
         
-        $('#back-to-top').tooltip('show');
+    $('#back-to-top').tooltip('show');
 
     $('#wordpressImg').hover(
          function(){ $(this).addClass('animated tada') },
@@ -57,7 +58,9 @@ $(document).ready(function(){
     );
 
 
-    
+    $('.nav-item a').click(function(){
+        $(".collapse").collapse('hide');
+    });
 });
 
 
