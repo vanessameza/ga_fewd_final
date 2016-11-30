@@ -28,6 +28,12 @@ ul li {
 footer {
 	min-height: 400px;
 }
+
+.line-sm{
+	line-height: 10%;
+	padding: 0 0 2% 0;
+}
+
 #wordPress img , #fewd img , #design img , #photography img , #education img  {
 	margin: 10% auto 0 auto;
 }
