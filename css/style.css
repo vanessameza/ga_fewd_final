@@ -65,20 +65,44 @@ i.fa.fa-wordpress {
 	padding: 4px 0 4px 0;
 } 
 
-@media all and (max-width: 768px) { 
+nav {
+	text-align: left;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+// Extra small devices (portrait phones, less than 544px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 544px and up)
+@media (min-width: 544px) { 
+	.container {
+		margin-top: 10%;
+	}
+
+	.nav.nav-tabs{
+		font-size: 1.5rem;
+	}
+}
+
+@media all and (max-width: 400px) { 
+	.nav.nav-tabs{
+		font-size: 1.5rem;
+	}
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
 	#projectsImg{
 		margin: 0 auto;
 	}
 	#wordPress img, #fewd img, #design img, #photography img, #education img {
 		margin: 10%	 auto 0 auto;
 	}
-
 }
 
-/* Portrait */
-@media all and (max-width: 448px) { 
-	.container {
-		margin-top: 10%;
-	}
-
-}
