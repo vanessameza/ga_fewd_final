@@ -1,12 +1,3 @@
-// console.log('Testing console');
-
-// $(document).click(function(){
-//     alert("This is a test.");
-// });
-
-// jQuery on "#id".hover add class animate  
-// remove class animate when hover on id is no longer occuring
-
 $(document).ready(function(){
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
