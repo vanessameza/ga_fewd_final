@@ -11,62 +11,67 @@
 }
 
 body {
-	text-align: center;
-	font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 img {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 ul li {
-	list-style: none;
-	font-family: 'Noto Serif', serif;
-	
+    list-style: none;
+    font-family: 'Noto Serif', serif;
 }
 
 footer {
-	min-height: 400px;
+    min-height: 400px;
 }
 
-.line-sm{
-	line-height: 10%;
-	padding: 0 0 2% 0;
+.line-sm {
+    line-height: 10%;
+    padding: 0 0 2% 0;
 }
 
-#wordPress img , #fewd img , #design img , #photography img , #education img  {
-	margin: 10% auto 0 auto;
+#wordPress img,
+#fewd img,
+#design img,
+#photography img,
+#education img {
+    margin: 10% auto 0 auto;
 }
 
 i.fa.fa-wordpress {
-    float: left;	
+    float: left;
 }
 
 .nav-tabs {
     border-bottom: none;
 }
-.copy h1{
-	 margin-top: 70px;
+
+.copy h1 {
+    margin-top: 70px;
 }
 
 #profileImg {
-	margin-top: 70px;
-	border-radius: 100px;
+    margin-top: 70px;
+    border-radius: 100px;
 }
 
-#projectsImg{
-	margin: 21% auto 0 auto;
+#projectsImg {
+    margin: 21% auto 0 auto;
 }
 
 .nav-tabs .nav-link {
-	display: inline-block;
+    display: inline-block;
 }
-.nav-tabs .nav-link > .fa.fa-wordpress{
-	padding: 4px 0 4px 0;
-} 
+
+.nav-tabs .nav-link>.fa.fa-wordpress {
+    padding: 4px 0 4px 0;
+}
 
 nav {
-	text-align: left;
+    text-align: left;
 }
 
 .back-to-top {
@@ -74,35 +79,38 @@ nav {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display:none;
+    display: none;
 }
+
 // Extra small devices (portrait phones, less than 544px)
 // No media query since this is the default in Bootstrap
-
 // Small devices (landscape phones, 544px and up)
-@media (min-width: 544px) { 
-	.container {
-		margin-top: 10%;
-	}
+@media (min-width: 544px) {
+    .container {
+        margin-top: 10%;
+    }
 
-	.nav.nav-tabs{
-		font-size: 1.5rem;
-	}
+    .nav.nav-tabs {
+        font-size: 1.5rem;
+    }
 }
 
-@media all and (max-width: 400px) { 
-	.nav.nav-tabs{
-		font-size: 1.5rem;
-	}
-
+@media all and (max-width: 400px) {
+    .nav.nav-tabs {
+        font-size: 1.5rem;
+    }
 }
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	#projectsImg{
-		margin: 0 auto;
-	}
-	#wordPress img, #fewd img, #design img, #photography img, #education img {
-		margin: 10%	 auto 0 auto;
-	}
+    #projectsImg {
+        margin: 0 auto;
+    }
+    #wordPress img,
+    #fewd img,
+    #design img,
+    #photography img,
+    #education img {
+        margin: 10% auto 0 auto;
+    }
 }
-
